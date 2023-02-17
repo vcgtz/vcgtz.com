@@ -16,7 +16,6 @@ export default function Home() {
             World!
           </span>
         </h1>
-        
       </main>
     </>
   )
