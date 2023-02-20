@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       
       <main>
-        <div className="p-6">
+        <div className="px-6 py-6 md:py-16">
           <MainPicture />
           <MainDescription />
         </div>

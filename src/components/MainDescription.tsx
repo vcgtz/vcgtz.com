@@ -2,7 +2,7 @@ export default function MainDescription() {
   return (
     <>
       <p className='text-3xl mb-6 text-gray-600 font-extralight'>
-        Qué tal! Soy Vicente y soy <span className='font-bold'>Ingeniero de Software</span>.
+        Qué tal! Me llamo Vicente y soy <span className='font-bold'>Ingeniero de Software</span>.
       </p>
       <p className='text-lg mb-6 font-light text-gray-600'>
         Estoy enfocado en tecnologías como <span className='font-medium'>JavaScript</span>, <span className='font-medium'>TypeScript</span> & <span className='font-medium'>Python</span> principalmente como backend, pero no exclusivamente.
