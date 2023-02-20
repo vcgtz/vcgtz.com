@@ -1,6 +1,6 @@
 {
   "name": "vcgtz.com",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,6 +8,12 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcgtz/vcgtz.com.git"
+  },
+  "author": "Vicente Gutiérrez <gtz.rvera@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@headlessui/react": "^1.7.11",
     "@heroicons/react": "^2.0.16",
