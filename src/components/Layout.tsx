@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -12,6 +13,7 @@ export default function Layout({ children }: LayoutProps) {
         <div className="mx-auto max-w-5xl">
           <Header />
           { children }
+          <Footer />
         </div>
       </div>
     </>

@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import MainPicture from '@/components/MainPicture';
-import MainContent from '@/components/MainContent';
+import MainDescription from '@/components/MainDescription';
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <div className="p-6">
           <MainPicture />
-          <MainContent />
+          <MainDescription />
         </div>
       </main>
     </>

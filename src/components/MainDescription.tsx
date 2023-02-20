@@ -1,4 +1,4 @@
-export default function MainContent() {
+export default function MainDescription() {
   return (
     <>
       <p className='text-3xl mb-6 text-gray-600 font-extralight'>
