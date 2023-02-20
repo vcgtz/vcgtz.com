@@ -20,8 +20,8 @@ const menuList: MenuListItem[] = [
   },
   {
     name: 'Blog',
-    link: '#',
-    enabled: false,
+    link: 'https://vicentegtz.com/',
+    enabled: true,
   },
   {
     name: 'Contacto',
