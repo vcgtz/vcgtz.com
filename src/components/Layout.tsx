@@ -20,7 +20,7 @@ export default function Layout({ children }: LayoutProps) {
 
       {/*  Global site tag (gtag.js) - Google Analytics */}
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-TJPW4DV99Q"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_MEASUREMENT_ID}`}
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -29,7 +29,7 @@ export default function Layout({ children }: LayoutProps) {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-TJPW4DV99Q');
+          gtag('config', '${process.env.GA_MEASUREMENT_ID}');
         `}
       </Script>
 
