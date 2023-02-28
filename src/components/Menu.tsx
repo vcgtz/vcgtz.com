@@ -20,7 +20,7 @@ const menuList: MenuListItem[] = [
   },
   {
     name: 'Blog',
-    link: 'https://vicentegtz.com/',
+    link: 'https://codecraftershub.com/',
     enabled: true,
   },
   {
