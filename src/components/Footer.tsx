@@ -72,7 +72,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-xs leading-5 text-gray-500 font-light">
-            {year} - Sitio hecho con Next.JS, TailwindCSS & Vercel.
+            {year} - Made with Next.JS, TailwindCSS & Vercel.
           </p>
         </div>
       </div>

@@ -14,14 +14,14 @@ const menuList: MenuListItem[] = [
     enabled: true,
   },
   {
-    name: 'Projectos',
-    link: '#',
-    enabled: false,
+    name: 'Projects',
+    link: '/projects',
+    enabled: true,
   },
   {
     name: 'Blog',
     link: 'https://codecraftershub.com/',
-    enabled: true,
+    enabled: false,
   },
   {
     name: 'Contacto',
