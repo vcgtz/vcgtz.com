@@ -24,9 +24,9 @@ const menuList: MenuListItem[] = [
     enabled: false,
   },
   {
-    name: 'Contacto',
-    link: '#',
-    enabled: false,
+    name: 'Contact',
+    link: '/contact',
+    enabled: true,
   },
   {
     name: 'Mi Setup',
