@@ -12,7 +12,7 @@ export default function Contact() {
           <ul className={`${textStyles} list-inside`}>
             <li className="list-disc"><HighlightedLink href="https://www.linkedin.com/in/vicentegtz/">LinkedIn</HighlightedLink></li>
             <li className="list-disc"><HighlightedLink href="https://github.com/vcgtz">GitHub</HighlightedLink></li>
-            <li className="list-disc"><HighlightedLink href="mailto:vcgtz@proton.me">Email</HighlightedLink></li>
+            <li className="list-disc"><HighlightedLink href="mailto:vicente@dotruntime.com">Email</HighlightedLink></li>
           </ul>
         </div>
       </main>
